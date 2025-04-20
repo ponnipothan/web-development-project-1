@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #004080;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 30px;
+}
+.profile-img {
+    width: 50px; /* Adjust the size as necessary */
+    height: 50px; /* Maintain aspect ratio */
+    border-radius: 50%; /* To make it a circle */
+    margin-right: 15px; /* Space between the image and text */
+    object-fit: cover; /* Ensure image fits the circle without distortion */
+    display: inline-block; /* Aligns image and text horizontally */
+  }
+  
+body{
+    font-family:'roboto', sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.7;
+}
+a{
+    color: white;
+    font-weight: 500;
+}
+a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+header h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+header p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.social-links{
+    margin-top: 1rem;
+}
+.social-links a{
+color: azure;
+font-size: 1.3rem;
+margin: 0 0.5rem;
+}
+.social-links a:hover{
+    color: green;
+}
+.section{
+    margin-bottom: 2.6rem;
+}
+section h2 {
+    font-size: 1.5rem;
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .entry {
+    margin-bottom: 1.5rem;
+  }
+  
+  .entry h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .skills-grid h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 1.25rem;
+  }
+  
+  footer {
+    background: #e0e0e0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .container {
+      padding: 1rem;}
+}
